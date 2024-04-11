@@ -8,12 +8,26 @@
     <title>Главная</title>
 </head>
 <body class="text-[#1D1D1D]">
-    <header class="container mx-auto max-w-[1360px] mt-10 px-12 py-10 bg-[Assets/Images/header/bg.png] h-[670px]">
-
+    <header class="container mx-auto max-w-[1360px] mt-10 px-12 py-10 bg-[url(Assets/Images/header/bg.png)] h-[670px] flex flex-col gap-[182px] text-white bg-cover relative">
+        <div class="flex flex-col gap-[72px]">
+            <p class="Ermilov text-2xl">Пластик Плюс</p>
+            <div class="flex flex-col gap-4">
+                <p class="text-2xl">мы хотим</p>
+                <p class="Ermilov uppercase text-[48px] leading-[43.5px] max-w-[996px]">способствовать внедрению экологичных технологий для людей, бизнеса и планеты</p>
+            </div>
+        </div>
+        <div class="absolute bottom-[50px] flex items-center justify-between w-[calc(100%-96px)] left-1/2 -translate-x-1/2">
+            <p class="max-w-[560px] font-medium text-2xl">
+                Основа проекта- наше стремление помочь бизнесу и пользователям позаботиться о природе просто и доступно
+            </p>
+            <a href="" class="">
+                <img src="Assets/Images/header/link.png" alt="">
+            </a>
+        </div>
     </header>
 
-    <main class="container mx-auto max-w-[1360px] px-10 mt-12">
-        <div class="flex flex-col gap-9 px-10 py-12 bg-[#F5F5F5] rounded-[32px]">
+    <main class="container mx-auto max-w-[1360px] mt-12 w-full">
+        <div class="flex flex-col gap-9 px-10 py-12 bg-[#F5F5F5] rounded-[32px] w-full">
             <div class="flex flex-col gap-4">
                 <p class="text-4xl Ermilov uppercase">описание продукта</p>
                 <p class="text-3xl font-semibold">устройство, осуществляющее сбор, <br> сортировку и хранение пластика</p>
@@ -109,7 +123,7 @@
         </div> 
     </main>
 
-    <footer class="mt-[120px] pb-24 container mx-auto max-w-[1360px] px-10">
+    <footer class="mt-[120px] pb-24 container mx-auto max-w-[1360px]">
         <div class="flex flex-col gap-[230px] py-10 px-12 bg-[#E7F6ED] rounded-[32px] w-full">
             <div class="flex flex-col gap-[72px]">
                 <p class="Ermilov text-2xl">Пластик Плюс</p>
